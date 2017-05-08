@@ -1,0 +1,23 @@
+# IDE
+*.sublime*
+.idea
+.vscode
+
+# OS
+*.log
+*.log.*
+._*
+.DS_Store
+
+# global folders
+coverage
+storybook-static
+dist
+logs
+node_modules
+reports
+.env
+
+# global files
+stats.json
+errorShots

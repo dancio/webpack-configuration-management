@@ -1,0 +1,21 @@
+{
+  "name": "webpack-config-example",
+  "version": "1.0.0",
+  "description": "An example of Webpack configuration management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config/index.js",
+    "build": "webpack --config ./webpack.config/index.js"
+  },
+  "author": "Daniel Kopka",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-preset-env": "1.4.0",
+    "babel-register": "6.24.1",
+    "webpack": "2.5.1",
+    "webpack-dev-server": "2.4.5",
+    "webpack-merge": "4.1.0"
+  }
+}
